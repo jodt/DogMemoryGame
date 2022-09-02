@@ -1,6 +1,16 @@
-# Getting Started with Create React App
+# Dog Memory Game
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+This project is a personal project created in order to learn ReactJS.
+
+You choose the breed of dog you want to play with to get the images corresponding to this breed.
+
+For this I use the public Api : https://dog.ceo/dog-api/
+
+## Try it and have fun
+
+https://dogmemorygamebyjodt.netlify.app
 
 ## Available Scripts
 
