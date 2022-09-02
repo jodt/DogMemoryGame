@@ -1,0 +1,50 @@
+.SelectionContainer {
+    height: 20%;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+}
+.Selection{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 15%;
+}
+
+.Selection label {
+    font-size: calc(0.5vw + 0.5vh + 1vmin);
+    margin: 10px;
+}
+
+.Selection select {
+    font-size: calc(0.5vw + 0.5vh + 0.4vmin);
+    margin: 10px;
+}
+
+
+
+
+.RandomPic{
+    width: 200px;
+    height: auto;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.RandomPic img{
+    border-radius: 10px;
+}
+
+
+@media screen and (max-width:420px) {
+    .SelectionContainer{
+        height: 10%;
+    }
+
+    .RandomPic{
+        width: 100px;
+    }
+    .RandomPic img{
+        width: 100%;
+    }
+  }

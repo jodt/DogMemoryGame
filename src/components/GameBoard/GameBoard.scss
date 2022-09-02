@@ -1,0 +1,58 @@
+.GameBoard {
+  width: 80%;
+  max-width: 800px;
+  height: 70%;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  box-shadow: 10px 10px 50px rgba(0, 0, 0, 0.2);
+  display: inline-grid;
+  column-gap: 5px;
+  row-gap: 5px;
+  justify-items: center;
+  align-items: center;
+  align-content: center;
+
+  /*justify-content: space-evenly;
+  align-items: stretch;
+  align-content: center;
+  flex-wrap: wrap;*/
+
+      & > :nth-child(2) {
+        grid-column: 2;
+      }
+      
+      & > :nth-last-child(n + 5) ~ :nth-child(3) { 
+      grid-column: 3;
+      }
+      
+      & > :nth-last-child(n + 10) ~ :nth-child(4) { 
+      grid-column: 4;
+      }
+      
+      & > :nth-last-child(n + 17) ~ :nth-child(5) { 
+      grid-column: 5;
+    }
+    p {
+      text-align: center;
+    height: 500px;
+    width: 300px;
+    background-image: url(../../Assets/kisspng-french-bulldog-watercolor-painting-drawing-bulldog-5a70ac3f597ae4.4246457415173335673665.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: auto;
+    margin-bottom: auto;
+    font-size: calc(0.5vw + 0.5vh + 1vmin);
+  }
+}
+
+@media screen and (max-width:420px) {
+  .GameBoard {
+    width: 90%;
+   height: 60%;
+
+   p {
+    height: 300px;
+    width: 200px;
+   }
+  }
+}
