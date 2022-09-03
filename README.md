@@ -12,6 +12,11 @@ For this I use the public Api : https://dog.ceo/dog-api/
 
 https://dogmemorygamebyjodt.netlify.app
 
+## upcoming improvements and options
+- improved drop-down list design
+- choice of difficulty (more or less cards)
+...
+
 ## Available Scripts
 
 In the project directory, you can run:
