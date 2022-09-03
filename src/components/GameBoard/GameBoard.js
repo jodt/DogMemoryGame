@@ -36,7 +36,7 @@ export default function GameBoard({
       }, 1000);
       return () => clearTimeout(timer);
     }
-  }, [selectCarValue, selectCardIndex]);
+  }, [selectCarValue, selectCardIndex, gameState, handleGameState]);
 
   const handleClick = (index, value) => {
     if (
@@ -70,7 +70,7 @@ export default function GameBoard({
               onClick={handleClick}
               cardIndex={index}
             >
-              <img src={element} width="100%" height="auto"></img>
+              <img src={element} width="100%" height="auto" alt="dog"></img>
             </Card>
           );
         })

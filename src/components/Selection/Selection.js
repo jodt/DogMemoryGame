@@ -91,7 +91,7 @@ export default function Selection({
         )}
       </div>
       <div className="RandomPic">
-        <img src={randomPic} width="150px" height="auto"></img>
+        <img src={randomPic} width="100%" height="auto"></img>
       </div>
     </div>
   );
