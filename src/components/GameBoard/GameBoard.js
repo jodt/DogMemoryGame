@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import Card from "../Card/Card";
 import "./GameBoard.scss";
+import { gridStyle } from "./gridStyle";
 
 let finishGame = 0;
 
@@ -51,7 +52,10 @@ export default function GameBoard({
   };
 
   return (
-    <div className="GameBoard">
+    <div
+      className="GameBoard"
+      style={selectedPic.length ? gridStyle(selectedPic.length) : null}
+    >
       {errorMessage ? (
         <p>{errorMessage}</p>
       ) : selectedPic.length ? (

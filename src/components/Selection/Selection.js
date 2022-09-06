@@ -13,8 +13,6 @@ export default function Selection({
   const [breeds, Setbreeds] = useState();
   const [subBreeds, setSubBreeds] = useState();
 
-  console.log(breeds);
-
   //retrieve breeds
   useEffect(() => {
     const getBreeds = async () => {

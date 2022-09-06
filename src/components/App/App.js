@@ -78,7 +78,7 @@ function App() {
         checkChoiceOk={checkChoiceOk}
         randomPic={
           selectedPic
-            ? selectedPic[Math.floor(Math.random()) * selectedPic.length]
+            ? selectedPic[Math.floor(Math.random() * selectedPic.length)]
             : null
         }
       />
